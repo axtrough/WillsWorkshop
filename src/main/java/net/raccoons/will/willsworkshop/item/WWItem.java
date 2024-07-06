@@ -1,4 +1,9 @@
 package net.raccoons.will.willsworkshop.item;
 
-public class WWItem {
+import net.minecraft.item.Item;
+
+public class WWItem extends Item {
+    public WWItem(Settings settings) {
+        super(settings);
+    }
 }
