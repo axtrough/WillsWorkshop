@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wills-workshop",
+	"version": "${version}",
+	"name": "Wills workshop",
+	"description": "MAKING N MIXING",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/wills-workshop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.raccoons.will.willsworkshop.WillsWorkshop"
+		],
+		"client": [
+			"net.raccoons.will.willsworkshop.WWClient"
+		],
+		"fabric-datagen": [
+			"net.raccoons.will.willsworkshop.WWDataGenerator"
+		]
+	},
+	"mixins": [
+		"wills-workshop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
