@@ -19,7 +19,7 @@
 			"net.raccoons.will.willsworkshop.WillsWorkshop"
 		],
 		"client": [
-			"net.raccoons.will.willsworkshop.WWClient"
+          "net.raccoons.will.willsworkshop.client.WWClient"
 		],
 		"fabric-datagen": [
 			"net.raccoons.will.willsworkshop.WWDataGenerator"

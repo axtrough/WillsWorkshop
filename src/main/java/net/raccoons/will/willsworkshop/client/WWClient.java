@@ -1,4 +1,4 @@
-package net.raccoons.will.willsworkshop;
+package net.raccoons.will.willsworkshop.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
